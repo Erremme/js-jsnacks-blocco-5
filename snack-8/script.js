@@ -21,3 +21,12 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+const Marcoclass = [];
+students.forEach(elm => {
+  if(elm.id === 1){
+    Marcoclass.push(elm.class)
+  }
+});
+
+console.log(Marcoclass)
